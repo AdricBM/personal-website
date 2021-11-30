@@ -6,4 +6,12 @@ $(document).ready(function () {
       $(".navbar").removeClass("scrollDown");
     }
   });
+
+  // navbar menu button toggle
+
+  $('.menu-btn').click(function(){
+      $('.navbar .menu').toggleClass("active");
+      $('.menu-btn i').toggleClass("active");
+  })
+
 });
