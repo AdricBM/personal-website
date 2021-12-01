@@ -16,7 +16,7 @@
   padding: 40px 0;
   position: fixed;
   font-family: "Varela Round", sans-serif;
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 .navbar.scrollDown {
@@ -44,7 +44,7 @@
 
 .navbar .logo a span {
   color: #00c6cf;
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 .navbar.scrollDown .logo a span {
@@ -61,7 +61,7 @@
   font-size: 18px;
   font-weight: 500px;
   margin-left: 25px;
-  transition: color 0.4s ease;
+  transition: color 0.4s ease-in-out;
 }
 
 .navbar .menu li a:hover {
@@ -219,7 +219,7 @@ button {
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
 }
@@ -256,7 +256,7 @@ button {
 }
 
 .skills .title::after {
-  content: "My tech stack";
+  content: "my tech stack";
   background: #262626;
 }
 
@@ -269,7 +269,7 @@ button {
 }
 
 .skills .skills-content .card .box {
-  transition: all 0.4s ease;
+  transition: all 0.4s ease-in-out;
 }
 
 .skills .skills-content .card:hover {
@@ -283,7 +283,7 @@ button {
 .skills .skills-content .card i {
   font-size: 50px;
   color: #00c6cf;
-  transition: color 0.4s ease;
+  transition: color 0.4s ease-in-out;
 }
 
 .skills .skills-content .card:hover i {
@@ -294,6 +294,86 @@ button {
   font-size: 25px;
   font-weight: 500px;
   margin: 10px 0px 8px;
+}
+
+/* projects section */
+
+.projects {
+  font-family: "Comfortaa", cursive, sans-serif;
+  background: #3d3d3d;
+  color: #ffffff;
+}
+
+.projects .title::after {
+  content: "experience";
+  background: #3d3d3d;
+}
+
+.projects .slider .card {
+  background: #262626;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects .slider .card:hover {
+  background: #00c6cf;
+}
+
+.projects .slider .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.projects .slider .card:hover .box {
+  transform: scale(1.04);
+}
+
+.projects .slider .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 8 0;
+}
+
+.projects .slider .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00c6cf;
+}
+
+.projects .slider .card:hover img {
+  border-color: #ffffff;
+}
+
+/* owl carousel*/
+
+.owl-nav {
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background: #ffffff !important;
+  color: #262626 !important;
+  border: none;
+  padding: 0 !important;
+  margin: 15px 4px 20px;
+  width: 80px;
+  font: inherit;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #00c6cf !important;
+  box-shadow: 0px 15px 20px rgba(46, 229, 229, 0.4);
+  color: #fff !important;
+  transform: translateY(-7px);
 }
 
 /* media queries */
@@ -336,7 +416,7 @@ button {
     background: #262626;
     text-align: center;
     padding: 80px;
-    transition: all 0.4s ease;
+    transition: all 0.4s ease-in-out;
   }
 
   .navbar .menu.active {
