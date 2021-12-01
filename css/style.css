@@ -357,11 +357,6 @@ button {
   text-align: center;
 }
 
-.owl-nav {
-  margin: auto;
-  padding: auto;
-}
-
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   background: #ffffff !important;
