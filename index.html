@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -24,11 +25,11 @@
           <a href="#">Adric <span>BM</span></a>
         </div>
         <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
         </ul>
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
@@ -60,19 +61,16 @@
             <img src="images/Me.jpg" alt="" />
           </div>
           <div class="column right">
-            <div class="text">
-              I am Adric and i am <span>Full stack developer</span>
-            </div>
+            <div class="text">I am a <span>Full stack developer</span></div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-              neque nam inventore unde voluptatibus dignissimos corrupti
-              obcaecati quasi. Tempore aut eveniet eum? Itaque veniam eum ab eos
-              nulla pariatur laboriosam officiis nam numquam vero adipisci magni
-              illum voluptates beatae, voluptatum nostrum unde dolorum cumque at
-              tempora praesentium exercitationem esse error id. Numquam ea
-              deleniti recusandae exercitationem qui dolores minima suscipit.
+              and i am based in Gauteng South Africa, programming is a big
+              passion of mine and i have been growing and sharpening my skills
+              for the past about 3 years now and when it comes to a full stack
+              project, i'm always up for the job/challenge.
             </p>
-            <button>Download CV</button>
+            <a href="C.V/Adric Busani Maplanka Resume.pdf" download
+              ><button>Download CV</button></a
+            >
           </div>
         </div>
       </div>
@@ -151,6 +149,7 @@
         </div>
       </div>
     </section>
+
     <!-- projects section -->
 
     <section class="projects" id="projects">
@@ -159,77 +158,58 @@
         <div class="slider owl-carousel">
           <div class="card">
             <div class="box">
-              <img
-                src="images/tiger_release_final_20211119_235456.png"
-                alt=""
-              />
-              <div class="text">Project 1</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                eaque.
-              </p>
+              <img src="images/White.png" alt="" />
+              <div class="text">Memory game</div>
+              <p>Coming soon.</p>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
-              <img
-                src="images/tiger_release_final_20211124_002721.png"
-                alt=""
-              />
+              <img src="images/White.png" alt="" />
               <div class="text">Project 2</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                eaque.
-              </p>
+              <p>Coming soon.</p>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
-              <img
-                src="images/tiger_release_final_20211126_201017.png"
-                alt=""
-              />
+              <img src="images/White.png" alt="" />
               <div class="text">Project 3</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                eaque.
-              </p>
+              <p>Coming soon.</p>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
-              <img
-                src="images/tiger_release_final_20211126_201017.png"
-                alt=""
-              />
-              <div class="text">Project 3</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                eaque.
-              </p>
+              <img src="images/White.png" alt="" />
+              <div class="text">Project 4</div>
+              <p>Coming soon.</p>
             </div>
           </div>
-
-          <div class="card">
-            <div class="box">
-              <img
-                src="images/tiger_release_final_20211126_201017.png"
-                alt=""
-              />
-              <div class="text">Project 3</div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-                eaque.
-              </p>
-            </div>
-          </div>
-
         </div>
+      </div>
     </section>
 
-    <script src="js/script.js"></script>
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <div class="page-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="email">
+            <i class="fas fa-envelope"></i>
+            <div class="text">adricbusanim@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span
+        >Created By Adric Maplanka <span class="far fa-copyright"></span> 2021
+        all rights reserved.</span
+      >
+    </footer>
   </body>
 </html>
