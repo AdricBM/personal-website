@@ -395,63 +395,25 @@ button {
 }
 
 .contact-content {
-  height: 100%;
-  width: 100%;
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 80%;
+  max-width: 480px;
+  margin: 0 auto;
+  grid-gap: 40px;
+  padding-top: 50px;
   justify-items: center;
 }
 
-.email {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 40%;
-  padding-bottom: 50px;
-}
-
-.email i,
-.phone i {
-  text-align: center;
-  padding: 10px;
-  /* border-bottom: 1px solid #00c6cf; */
-  font-size: 30px;
-}
-
-.email .text,
-.phone .text {
-  text-align: left;
-  padding: 10px;
-  /* border-bottom: 1px solid #00c6cf; */
-}
-
-.phone {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 40%;
-  padding-bottom: 50px;
-}
-
-.socials {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 40%;
-  padding: 10px;
-  text-align: center;
-  font-size: 30px;
-  border-top: 1px solid #00c6cf;
-}
-
-.socials i {
-  outline: none;
-  color: #ffffff;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-}
-
-.socials i:hover {
+.contact-content a {
   color: #00c6cf;
-  transform: scale(1.04);
+}
+
+.contact-content div{
+  padding: 5px;
+}
+
+.icon {
+  font-size: 20px;
 }
 
 /* footer */
