@@ -43,7 +43,7 @@ html {
 .navbar .logo a {
   color: #ffffff;
   font-size: 35px;
-  font-weight: 600px;
+  font-weight: bolder;
 }
 
 .navbar .logo a span {
@@ -64,7 +64,7 @@ html {
   color: #ffffff;
   display: block;
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: bolder;
   margin-left: 25px;
   transition: color 0.4s ease-in-out;
 }
@@ -96,7 +96,7 @@ section .title {
   position: relative;
   text-align: center;
   font-size: 40px;
-  font-weight: 500px;
+  font-weight: bolder;
   margin-bottom: 60px;
   padding-bottom: 20px;
   color: #ffffff;
@@ -145,7 +145,7 @@ section .title::after {
 
 .home .home-content .intro-text-2 {
   font-size: 75px;
-  font-weight: 600px;
+  font-weight: bolder;
   margin-left: -4px;
 }
 
@@ -156,7 +156,7 @@ section .title::after {
 
 .home .home-content .intro-text-3 span {
   color: #00c6cf;
-  font-weight: 500px;
+  font-weight: bolder;
 }
 
 /* about section */
@@ -197,7 +197,7 @@ section .title::after {
 
 .about .about-content .right .text {
   font-size: 25px;
-  font-weight: 600px;
+  font-weight: bolder;
   margin-bottom: 10px;
 }
 
@@ -218,7 +218,7 @@ button {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 800;
+  font-weight: bolder;
   color: #262626;
   background-color: #fff;
   border: none;
@@ -297,7 +297,7 @@ button {
 
 .skills .skills-content .card .text {
   font-size: 25px;
-  font-weight: 500px;
+  font-weight: bolder;
   margin: 10px 0px 8px;
 }
 
@@ -340,7 +340,7 @@ button {
 
 .projects .slider .card .text {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: bolder;
   margin: 10px 0 8 0;
 }
 
@@ -408,7 +408,7 @@ button {
   color: #00c6cf;
 }
 
-.contact-content div{
+.contact-content div {
   padding: 5px;
 }
 
